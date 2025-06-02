@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+   font-family: Arial, sans-serif;
 }
-
+.main-content {
+  padding: 0 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -25,7 +28,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #9b3c99;
 }
 
 @keyframes App-logo-spin {
