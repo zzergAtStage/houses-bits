@@ -10,9 +10,40 @@
   color: #222;
 }
 
-/* Display items in a responsive grid */
+/* Search form styling */
+.search-form {
+  margin-bottom: 20px;
+  text-align: center; /* Center the input horizontally */
+}
+
+.search-input {
+  width: 80%;
+  max-width: 400px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Utility class for screen readers (optional) */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Apartment grid */
 .apartment-list-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* “No results” message styling */
+.no-results-message {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #888;
 }
