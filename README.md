@@ -1,6 +1,39 @@
-# Getting Started with Create React App
+# Houses Bits
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application for browsing and viewing apartments for rent in Montenegro.
+
+## Features
+
+- **Browse Apartments:** View a list of available apartments with images, titles, locations, and prices.
+- **Search:** Filter apartments by title or location (case-insensitive).
+- **Sort:** Sort apartments by price (ascending/descending) or title (A–Z, Z–A).
+- **Detail View:** Click an apartment to see more details on a dedicated page.
+- **Routing:** Uses React Router for navigation between the list and detail views.
+- **Responsive UI:** Basic responsive design using CSS.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/houses-bits.git
+   cd houses-bits
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Start the development server:**
+   ```sh
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
 ## Available Scripts
 
