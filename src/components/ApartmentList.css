@@ -47,3 +47,42 @@
   font-size: 1.1rem;
   color: #888;
 }
+
+
+/* Container for sort dropdown */
+.sort-container {
+  margin-bottom: 12px;
+  text-align: center; /* Center the label and select */
+}
+
+/* Ensure the label has some spacing */
+.sort-label {
+  margin-right: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Style the <select> similarly to the search input */
+.sort-select {
+  width: 200px;
+  max-width: 90%;
+  padding: 6px 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Adjust spacing to avoid clutter between sort and search */
+.search-form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 80%;
+  max-width: 400px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
